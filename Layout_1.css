@@ -1,0 +1,45 @@
+*{
+    font-size: 20px;
+    color: #fff;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+header, nav, main, aside, footer{
+    border: #fff 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    width: 99.8%;
+    height: 98px;
+    background: rgb(39, 17, 17);
+}
+
+nav{
+    width: 99.8%;
+    height: 73px;
+    background: rgb(72, 42, 42);
+}
+
+main{
+    width: 74.8%;
+    height: 348px;
+    background: rgb(113, 90, 90);
+}
+
+aside{
+    width: 29.8%;
+    height: 348px;
+    background: rgb(135, 126, 126);
+}
+
+footer{
+    width: 99.8%;
+    height: 138px;
+    background: rgb(198, 180, 180);
+}
